@@ -320,6 +320,88 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #000011; }
+  color: #000011;
+  background: #3767AD;
+  font-family: Roboto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 3rem 0; }
+
+.container {
+  width: 17.5rem;
+  height: 17.5rem;
+  background: url("../assets/img/water-glass.svg") center center;
+  background-size: contain;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 7rem; }
+  .container__number {
+    display: block;
+    padding-top: 3rem; }
+
+.button-add {
+  border: none;
+  color: #000011;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  width: 13rem;
+  height: 3rem;
+  margin: 3rem 0 1.5rem 0; }
+
+.button-remove {
+  background: none;
+  border: none;
+  color: #F5E5E7;
+  height: 1rem;
+  width: 13rem;
+  font-size: 1rem;
+  line-height: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

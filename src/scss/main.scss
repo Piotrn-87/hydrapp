@@ -16,4 +16,67 @@ html {
 
 body {
   color: $black;
+  background: $blue;
+  font-family: Roboto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  color: #fff;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 3rem 0;
+}
+
+.container {
+  width: 17.5rem;
+  height: 17.5rem;
+  background: url("../assets/img/water-glass.svg") center center;
+  background-size: contain;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+
+  &__number {
+    display: block;
+    padding-top: 3rem;
+  }
+}
+
+.button-add {
+  border: none;
+  color: $black;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  width: 13rem;
+  height: 3rem;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.button-remove {
+  background: none;
+  border: none;
+  color: $grey;
+  height: 1rem;
+  width: 13rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
