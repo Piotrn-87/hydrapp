@@ -27,9 +27,9 @@ if (!localStorage.getItem(key)) {
 }
 
 buttonAdd.addEventListener('click', (e) => {
-  localStorage.setItem(key, parseInt(localStorage.getItem(key)) + 1)
+  let buttonAddValue = parseInt(localStorage.getItem(key)) + 1;
+  localStorage.setItem(key, buttonAddValue);
   value.innerHTML = localStorage.getItem(key);
-  // value.innerHTML = parseInt(value.innerHTML) + 1;
 });
 
 buttonRemove.addEventListener('click', (e) => {
