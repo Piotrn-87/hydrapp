@@ -1,5 +1,5 @@
 # hydrapp
-![Homepage screenshot](dist/assets/img/Readme.png)
+![Homepage screenshot](dist/assets/img/readme.png)
 live -> https://piotrn-87.github.io/hydrapp/
 
 to run locally -> 
